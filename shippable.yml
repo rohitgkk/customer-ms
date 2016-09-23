@@ -15,7 +15,7 @@ build:
     - mvn --version
     - mvn clean install -DskipTests
     - mvn sonar:sonar
-    - docker build -t ms_customer .
+    - docker build -t dockerregistry.hclets.com/ms_customer:latest .
 
   post_ci:
     - ls -a
