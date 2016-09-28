@@ -28,6 +28,8 @@ public class CustomerApp {
 				"lionel.messi@gmail.com", "Barcelona Ave", "Argentina"));
 		customerRepository.save(new Customer("Phunsuk", "Wangdu",
 				"phunsuk.wangdu@3idiots.com", "Leh Ave", "Leh"));
+		customerRepository.save(new Customer("Hrishikesh", "Deodhar",
+				"hr1sh1kesh.deodhar@devOpsEngineers.com", "Electronics City", "Bangalore"));
 	}
 
 	public static void main(String[] args) {
